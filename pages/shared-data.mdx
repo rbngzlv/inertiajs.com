@@ -77,6 +77,7 @@ The server-side adapters provide a way to preassign shared data which each reque
         # Lazily
         inertia_share user_count: lambda { User.count }
       `,
+      description: 'Place this code in your controller (can be called multiple times).',
     },
   ]}
 />
